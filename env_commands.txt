@@ -1,0 +1,18 @@
+cd /Users/wbaslock/wagent
+uv init wagent
+uv venv
+source .venv/bin/activate
+
+git status
+git add .
+git commit -m ""
+git push origin main
+
+
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/wbas-5969/agent.git
+git branch -M main
+git push -u origin main
