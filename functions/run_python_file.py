@@ -12,10 +12,10 @@ schema_run_python_file = types.FunctionDeclaration(
                 type=types.Type.STRING,
                 description="file_path to the file",
             ),
-            "args": types.Schema(
-                type=types.Type.ARRAY,
-                description="arguments to the python script",
-            ),
+            # "args": types.Schema(
+            #     type=types.Type.ARRAY,
+            #     description="arguments to the python script",
+            # ),
         },
     ),
 )
